@@ -11,9 +11,9 @@ parameters:
             max_users: 'unlimited'
         frontend:
             auto_login:
-                enabled: true
-                username: admin
-                password: admin
+                enabled: false
+                username: ""
+                password: ""
             base_url: false
             motd: ''
         tip_of_the_day_list: 'https://partkeepr.org/tips.json'
